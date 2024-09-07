@@ -1,0 +1,21 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "A web Server created by JS!",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "server",
+    "web",
+    "http"
+  ],
+  "author": "nvmPratyush",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.19.2",
+    "https": "^1.0.0",
+    "nodemon": "^3.1.4"
+  }
+}
